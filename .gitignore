@@ -3,6 +3,10 @@ data/raw/
 data/processed/
 data/external/
 
+# Project data and results (repo-level paths)
+skin_lesion/data/
+skin_lesion/results/
+
 # Python
 __pycache__/
 *.pyc
