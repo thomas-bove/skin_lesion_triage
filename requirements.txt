@@ -1,10 +1,22 @@
-numpy
-pandas
-scikit-learn
-opencv-python
-matplotlib
-scipy
-jupyter
-torch
-torchvision
-tqdm
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+scipy>=1.10
+matplotlib>=3.7
+
+# Classical image processing and machine learning
+opencv-python>=4.7
+scikit-learn>=1.2
+joblib>=1.2
+Pillow>=9.5
+
+# Deep learning pipeline
+# Install the build compatible with your platform/CUDA version if needed:
+# https://pytorch.org/get-started/locally/
+torch>=2.0
+torchvision>=0.15
+
+# Notebook/runtime utilities
+tqdm>=4.65
+jupyter>=1.0
+ipykernel>=6.0
